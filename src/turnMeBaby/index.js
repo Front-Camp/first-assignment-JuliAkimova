@@ -9,6 +9,12 @@
  */
 const turnMeBaby = str => {
   /* your logic here...*/
+  let reversedString = "";
+    for(let i = 0; i < str.length; i++) {
+      reversedString += str[i];
+      return reversedString;
+    }
+  
 };
 
 export default turnMeBaby;

@@ -11,7 +11,12 @@
  * sumElements([Infinity, NaN, 1]); // 1
  */
 const sumElements = arr => {
-  /* your logic here...*/
+  let sum = 0;
+  for( let i = 0; i < arr.length; i++){
+     let float = parseFloat(arr[i]);
+     sum += float[i];
+  }
+  return sum;
 };
 
 export default sumElements;
